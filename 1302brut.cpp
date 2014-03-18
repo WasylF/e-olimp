@@ -98,8 +98,7 @@ for (int T=0; T<t; T++)
 
     for (int i= low; i<=high; i++)
     {
-       //ans+= chek(i);
-       if (chek(i)) { /*cout<<i<<" "; */ ans++; }
+       if (chek(i)) { ans++; /*cout<<i<<" "; */ }
     }
     cout<<ans<<endl;
 }
