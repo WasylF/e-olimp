@@ -23,7 +23,7 @@ using namespace std;
 typedef long long LL;
 
 
-int сheck(LL n)
+int check(LL n)
 {
 
 if (n==1) return 0;
