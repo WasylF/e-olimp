@@ -16,6 +16,7 @@
 #include <queue>
 #include <deque>
 #include <time.h>
+#include <x86intrin.h>
 
 
 using namespace std;
