@@ -16,6 +16,7 @@
 #include <queue>
 #include <deque>
 #include <time.h>
+#include <x86intrin.h>
 
 
 using namespace std;
@@ -34,7 +35,7 @@ int main()
 
  //freopen("input.txt","r",stdin);
  freopen("input.txt","w",stdout);
- srand(time(NULL));
+ srand(__rdtsc());
 
 
  LL t,low,high;
