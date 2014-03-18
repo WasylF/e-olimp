@@ -1,4 +1,4 @@
-e-olimp
+Тут находятся некоторые решения задач с сайта e-olimp
 =======
 
-my solutions
+Wsl_F solutions
