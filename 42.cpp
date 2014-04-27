@@ -751,7 +751,7 @@ int main()
  while (cin>>tr>>tr2)
  {
     Polygon<dbl> pl= tr.intersectionTriangle(tr2);
-    cout<<pl<<endl<<endl;
+    //cout<<pl<<endl<<endl;
     cout<<pl.getN()<<" "<<pl.area()<<endl;
  }
  return 0;
